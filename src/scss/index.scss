@@ -1,0 +1,29 @@
+@import "./variables.scss";
+@import "./base/base.scss" ;
+@import "./layout/layout.scss";
+
+$button-font-size: 3rem;
+
+.Button {
+    padding: .3em .8em;
+    border: 1px solid rgba(0,0,0,.1);
+    background: #58a linear-gradient(hsla(0, 0%, 100%, .2), transparent);
+    border-radius: .2em;
+    box-shadow: 0 .05em .25em rgba(0, 0, 0, .5);
+    color: white;
+    text-shadow: 0 -.05em .05em rgba(0, 0, 0, .5);
+    font-size: $button-font-size;
+    line-height: 1.5;
+}
+
+.Button--Cancel {
+    @extend .Button;
+    background-color: #c00;
+}
+
+.Circle {
+    background: #fb3;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}

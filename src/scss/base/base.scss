@@ -1,0 +1,12 @@
+@import "node_modules/normalize.css/normalize";
+
+html {
+    font-size: 62.5%; // 10px
+}
+
+//body {
+  /*
+   * http://stackoverflow.com/questions/20099844/chrome-not-respecting-rem-font-size-on-body-tag
+   */
+//  font-size: 1.2em;
+//}

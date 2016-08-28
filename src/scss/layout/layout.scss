@@ -1,0 +1,25 @@
+.TopFixed {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    border: 1px solid transparent;
+}
+
+.BottomFixed {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 1px solid transparent;   
+}
+
+.SiteHeader {
+    @extend .TopFixed;
+    background: green;
+}
+
+.SiteFooter {
+    @extend .BottomFixed;
+    background: red;
+}
